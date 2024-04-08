@@ -20,6 +20,17 @@
     <button type="submit" py-click="beolvas">Beolvasás</button>
     <div id="kimenet1"></div>
 
+    <br><input type="number" name="szamegy" id="szamegy"><br>
+
+    <label>+<input type="radio" name="szamolas" id="osszeadas"></label><br>
+    <label>-<input type="radio" name="szamolas" id="kivonas"></label><br>
+    <label>*<input type="radio" name="szamolas" id="szorzas"></label><br>
+    <label>/<input type="radio" name="szamolas" id="osztas"></label><br>
+
+    <input type="number" name="szamketto" id="szamketto"><br>
+    <input type="button" value="=">
+    <p id="eredmeny"></p>
+
     <py-script src="main.py"></py-script>
   </body>
 </html>
