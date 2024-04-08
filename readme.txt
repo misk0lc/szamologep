@@ -1,1 +1,1 @@
-szoszi
+szoszi van misi
